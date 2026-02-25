@@ -1,14 +1,4 @@
 {
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.formatOnSave": true,
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "vscode-great-icons",
   "explorer.confirmDragAndDrop": false,
@@ -41,7 +31,7 @@
     "contributors": false,
     "repositories": false,
     "searchAndCompare": false,
-    "launchpad": false,
+    "launchpad": false
   },
   "git.enableCommitSigning": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -50,30 +40,13 @@
   "github.copilot.nextEditSuggestions.enabled": false,
   "docker.extension.enableComposeLanguageServer": false,
   "workbench.editorAssociations": {
-    "git-rebase-todo": "default",
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
+    "git-rebase-todo": "default"
   },
   "editor.formatOnSave": true,
   "gitlens.advanced.messages": {
-    "suppressCommitNotFoundWarning": true,
+    "suppressCommitNotFoundWarning": true
   },
   "php.suggest.basic": false,
-  "[dockercompose]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "advanced",
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true,
-    },
-    "editor.defaultFormatter": "redhat.vscode-yaml",
-  },
-  "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
-  },
   "editor.minimap.enabled": false,
   "chat.viewSessions.orientation": "stacked",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -83,14 +56,31 @@
     "bash": {
       "path": "bash",
       "icon": "terminal-bash",
-      "color": "terminal.ansiYellow",
+      "color": "terminal.ansiYellow"
     },
     "fish": {
       "path": "fish",
       "icon": "wand",
-    },
+      "color": "terminal.ansiGreen"
+    }
   },
   "terminal.integrated.suggest.enabled": false,
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.initialHint": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  }
 }
